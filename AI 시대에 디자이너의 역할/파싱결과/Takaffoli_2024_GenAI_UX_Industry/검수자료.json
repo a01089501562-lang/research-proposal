@@ -1,0 +1,146 @@
+{
+  "reviewCount": 1,
+  "source_pages": 15,
+  "kordoc_pages": 15,
+  "output_page_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "sample_pages": [
+    1,
+    3,
+    15
+  ],
+  "document_token_overlap": 0.9748,
+  "metric_note": "Reference is pypdf text, not ground truth. Token overlap cannot establish reading order, table fidelity, or semantic accuracy.",
+  "replacement_characters": 0,
+  "warnings": [
+    {
+      "message": "13개 머리글/바닥글 요소 제거됨",
+      "code": "HIDDEN_TEXT_FILTERED"
+    }
+  ],
+  "qualitySummary": {
+    "totalPages": 15,
+    "totalTextChars": 93013,
+    "avgHangulRatio": 0,
+    "avgControlCharRatio": 0,
+    "avgReplacementCharRatio": 0,
+    "avgPuaRatio": 0,
+    "lowTextPageCount": 0,
+    "highPuaPageCount": 0,
+    "needsOcr": false,
+    "ocrCandidatePages": []
+  },
+  "block_types": {
+    "heading": 42,
+    "table": 4,
+    "paragraph": 463,
+    "image": 1
+  },
+  "per_page": [
+    {
+      "page": 1,
+      "source_chars": 5618,
+      "parsed_chars": 6146,
+      "token_overlap": 0.9834
+    },
+    {
+      "page": 2,
+      "source_chars": 6796,
+      "parsed_chars": 6739,
+      "token_overlap": 0.97
+    },
+    {
+      "page": 3,
+      "source_chars": 6673,
+      "parsed_chars": 6632,
+      "token_overlap": 0.9696
+    },
+    {
+      "page": 4,
+      "source_chars": 5557,
+      "parsed_chars": 5637,
+      "token_overlap": 0.9917
+    },
+    {
+      "page": 5,
+      "source_chars": 5730,
+      "parsed_chars": 5905,
+      "token_overlap": 0.9731
+    },
+    {
+      "page": 6,
+      "source_chars": 6609,
+      "parsed_chars": 6543,
+      "token_overlap": 0.9738
+    },
+    {
+      "page": 7,
+      "source_chars": 6074,
+      "parsed_chars": 6007,
+      "token_overlap": 0.9706
+    },
+    {
+      "page": 8,
+      "source_chars": 6763,
+      "parsed_chars": 6696,
+      "token_overlap": 0.9696
+    },
+    {
+      "page": 9,
+      "source_chars": 7167,
+      "parsed_chars": 7075,
+      "token_overlap": 0.9716
+    },
+    {
+      "page": 10,
+      "source_chars": 6788,
+      "parsed_chars": 6697,
+      "token_overlap": 0.9646
+    },
+    {
+      "page": 11,
+      "source_chars": 7962,
+      "parsed_chars": 8433,
+      "token_overlap": 0.9787
+    },
+    {
+      "page": 12,
+      "source_chars": 11264,
+      "parsed_chars": 13541,
+      "token_overlap": 0.9797
+    },
+    {
+      "page": 13,
+      "source_chars": 10955,
+      "parsed_chars": 13117,
+      "token_overlap": 0.9775
+    },
+    {
+      "page": 14,
+      "source_chars": 6229,
+      "parsed_chars": 6567,
+      "token_overlap": 0.972
+    },
+    {
+      "page": 15,
+      "source_chars": 1246,
+      "parsed_chars": 1144,
+      "token_overlap": 0.913
+    }
+  ]
+}
